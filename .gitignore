@@ -2,3 +2,4 @@ config.mk
 objs/vc2010/
 **/Debug/
 **/Release/
+**/Debug Static/
