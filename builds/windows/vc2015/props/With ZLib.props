@@ -6,6 +6,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <PreprocessorDefinitions>FT_CONFIG_OPTION_SYSTEM_ZLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />

@@ -6,6 +6,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <PreprocessorDefinitions>FT_CONFIG_OPTION_USE_PNG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\..\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup />

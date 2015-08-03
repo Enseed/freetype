@@ -1012,6 +1012,18 @@
     <ClInclude Include="..\..\..\include\config\ftmodule.h" />
     <ClInclude Include="..\..\..\include\config\ftoption.h" />
     <ClInclude Include="..\..\..\include\config\ftstdlib.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\libpng\projects\vstudio\libpng\libpng-msvc14.vcxproj">
+      <Project>{d6973076-9317-4ef2-a0b8-b7a18ac0713e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\zlib\contrib\vstudio\vc14\zlib.vcxproj">
+      <Project>{8fd826f8-3739-44e6-8cc8-997122e53b8d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="freetype.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
