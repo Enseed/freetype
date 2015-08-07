@@ -142,6 +142,19 @@ FT_BEGIN_HEADER
 
 #endif
 
+  /*************************************************************************/
+  /*                                                                       */
+  /* MSVC support                                                          */
+#ifdef _MSC_VER
+#ifdef FREETYPE_EXPORT_DLL
+#ifndef FT_EXPORT
+#define FT_EXPORT(x) __declspec(dllexport) x
+#endif // FT_EXPORT
+#ifndef FT_BASE
+#define FT_BASE(x) __declspec(dllexport) x
+#endif // FT_BASE
+#endif // FREETYPE_EXPORT_DLL
+#endif // _MSC_VER
 
   /*************************************************************************/
   /*                                                                       */

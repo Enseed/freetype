@@ -37,6 +37,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}</ProjectGuid>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>freetype</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,66 +84,82 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Debug.props" />
-    <Import Project="props\Target Win32.props" />
     <Import Project="props\Runtime Library Multithreaded Debug.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Debug.props" />
+    <Import Project="props\Profile Dynamic.props" />
+    <Import Project="props\Target Win32.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="PropertySheets">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Debug.props" />
-    <Import Project="props\Target Win32.props" />
     <Import Project="props\Runtime Library Multithreaded Debug.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Debug.props" />
+    <Import Project="props\Profile Static.props" />
+    <Import Project="props\Target Win32.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Debug.props" />
-    <Import Project="props\Target x64.props" />
     <Import Project="props\Runtime Library Multithreaded Debug.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Debug.props" />
+    <Import Project="props\Profile Dynamic.props" />
+    <Import Project="props\Target x64.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|x64'" Label="PropertySheets">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Debug.props" />
-    <Import Project="props\Target x64.props" />
     <Import Project="props\Runtime Library Multithreaded Debug.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Debug.props" />
+    <Import Project="props\Profile Static.props" />
+    <Import Project="props\Target x64.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Release.props" />
-    <Import Project="props\Target Win32.props" />
     <Import Project="props\Runtime Library Multithreaded.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Release.props" />
+    <Import Project="props\Profile Dynamic.props" />
+    <Import Project="props\Target Win32.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="PropertySheets">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Release.props" />
-    <Import Project="props\Target Win32.props" />
     <Import Project="props\Runtime Library Multithreaded.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Release.props" />
+    <Import Project="props\Profile Static.props" />
+    <Import Project="props\Target Win32.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Release.props" />
-    <Import Project="props\Target x64.props" />
     <Import Project="props\Runtime Library Multithreaded.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Release.props" />
+    <Import Project="props\Profile Dynamic.props" />
+    <Import Project="props\Target x64.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|x64'" Label="PropertySheets">
-    <Import Project="props\freetype.props" />
-    <Import Project="props\Profile Release.props" />
-    <Import Project="props\Target x64.props" />
     <Import Project="props\Runtime Library Multithreaded.props" />
+    <Import Project="props\Set Version.props" />
+    <Import Project="props\Profile Release.props" />
+    <Import Project="props\Profile Static.props" />
+    <Import Project="props\Target x64.props" />
+    <Import Project="props\freetype.props" />
     <Import Project="props\With LibPNG.props" />
     <Import Project="props\With ZLib.props" />
   </ImportGroup>
